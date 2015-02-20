@@ -1,7 +1,7 @@
 application:
     service:
-        someProp2: A property value (for undefined profile)
-        anotherProp2: another property value (for undefined profile)
+        someProp2: A property value from multiple configuration file (for undefined profile)
+        anotherProp2: another property value from multiple configuration file (for undefined profile)
 
 ---
 
@@ -10,8 +10,8 @@ spring:
 
 application:
     service:
-        someProp2: A property value (for undefined profile)
-        anotherProp2: another property value (for undefined profile)
+        someProp2: A property value from multiple configuration file (for development profile)
+        anotherProp2: another property value from multiple configuration file (for development profile)
 
 
 ---
@@ -21,6 +21,6 @@ spring:
 
 application:
     service:
-        someProp2: A property value (for undefined profile)
-        anotherProp2: another property value (for undefined profile)
+        someProp2: A property value from multiple configuration file (for production profile)
+        anotherProp2: another property value from multiple configuration file (for production profile)
 
